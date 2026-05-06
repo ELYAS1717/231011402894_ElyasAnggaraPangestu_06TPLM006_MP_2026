@@ -1,19 +1,8 @@
 # elyas uts
+Penjelasan:
 
-A new Flutter project created with FlutLab - https://flutlab.io
-
-## Getting Started
-
-A few resources to get you started if this is your first Flutter project:
-
-- https://flutter.dev/docs/get-started/codelab
-- https://flutter.dev/docs/cookbook
-
-For help getting started with Flutter, view our
-https://flutter.dev/docs, which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-
-## Getting Started: FlutLab - Flutter Online IDE
-
-- How to use FlutLab? Please, view our https://flutlab.io/docs
-- Join the discussion and conversation on https://flutlab.io/residents
+Penggunaan Card & Padding: Setiap informasi workshop dibungkus dalam Card dengan Padding yang luas (16px). Ini memberikan "ruang napas" agar informasi tidak terasa sesak.
+Hierarki Teks            : Judul menggunakan fontSize: 18 dan fontWeight.bold. Sementara itu, informasi tanggal dan lokasi menggunakan warna abu-abu agar tidak berebut perhatian dengan judul.
+Grouping                 : Informasi waktu dan tempat dikelompokkan dengan ikon kecil sebagai penanda visual, sehingga pengguna bisa memindai (scanning) informasi dengan cepat.
+Tombol yang Jelas        : Tombol daftar diletakkan di sisi kanan bawah (pola pembacaan F-shape/Z-shape), menjadikannya elemen terakhir yang dilihat setelah membaca detail workshop.
+Status Kuota             : Memberikan warna berbeda (Merah jika penuh) membantu dosen atau mahasiswa mengetahui status workshop secara instan tanpa harus membaca detail teks secara mendalam.
